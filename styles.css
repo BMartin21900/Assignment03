@@ -1,0 +1,128 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+  display: block;
+  height: 100vh;
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #c94b4b, #4b134f);
+}
+
+nav {
+  background: #370e3a;
+  padding: 0 4em 0 4em;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 10em;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 6em;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Lora", serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #370e3a;
+  height: 4em;
+  clear: both;
+}
+
+.bg-white {
+  background: linear-gradient(to right, #ffffff, #fffdfd);
+}
+
+.card {
+  border-radius: 5px;
+  padding: 2em;
+  max-width: 40em;
+}
+
+.card h2 {
+  font-size: 4em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 1em;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  flex-grow: 3;
+}
+
+.max-w-1 {
+  max-width: 1em;
+}
+
+.max-w-20 {
+  max-width: 16em;
+}
+
+.max-w-40 {
+  max-width: 38em;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.pb-2 {
+  padding-bottom: 2em;
+}
+
+#hero {
+  min-height: 85vh;
+}
+
+#sanfran-content {
+  padding: 2em;
+}
+
+#fuzhou-content {
+  padding: 2em;
+}
