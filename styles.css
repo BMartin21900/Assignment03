@@ -79,6 +79,7 @@ footer {
 .flex-col {
   display: flex;
   flex-direction: column;
+  padding: 1em;
   flex-grow: 3;
 }
 
@@ -119,5 +120,9 @@ footer {
 }
 
 #sanfran-content {
+  padding: 2em;
+}
+
+#fuzhou-content {
   padding: 2em;
 }
